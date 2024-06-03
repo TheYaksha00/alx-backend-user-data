@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 """ Module of Authentication
 """
@@ -48,4 +47,3 @@ class Auth:
     def current_user(self, request=None) -> TypeVar('User'):
         """ Validates current user """
         return None
-
